@@ -12,7 +12,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-between border-b border-white p-6 md:p-12 overflow-hidden bg-[#0A0A0A]">
+    <section id="hero" className="relative min-h-[90vh] flex flex-col justify-between border-b border-white p-6 md:p-12 overflow-hidden bg-[#0A0A0A]">
       {/* Grid Pattern Background for tech texture */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-30 pointer-events-none" />
 
